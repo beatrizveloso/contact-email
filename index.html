@@ -11,14 +11,14 @@
 <body> 
     <div class="contact-container">
         <h1>Contact Me</h1>
-        <form action="" id="contact-form">
+        <form action="" id="contact-form" class="form">
             <label for="name">Qual é seu nome?</label>
             <input type="text" id="name" name="name" required onchange="(e) => console.log(e.target.value)"> 
             <label for="email">Digite seu email abaixo</label>
             <input type="email" id="email" name="email" required>
             <label for="message" >Escreva uma mensagem aqui!</label>
-            <textarea name=",essage" id="message" cols="20" rows="3" maxlength="100" required></textarea>
-            <button type="submit"></button>
+            <textarea name="message" id="message" cols="20" rows="3" maxlength="100" required></textarea>
+            <button type="submit">Send</button>
         </form>
     </div>
     <script src="src/services/email/send-email.js"></script>
