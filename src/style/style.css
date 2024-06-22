@@ -1,0 +1,19 @@
+body, 
+.contact-container,
+.form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: rgb(148, 9, 86);
+    background-image: url(/src/img/barbie.png)
+}
+
+h1 {
+    color: deeppink;
+}
+
+button {
+    width: 140px;
+    height: 30px;
+}
