@@ -1,10 +1,10 @@
-(function () {
+(() => {
     emailjs.init({
         publicKey: "StGts4CbzLqnHZeYo",
     })
 })();
 
-document.getElementById("contact-form").addEventListener("submit", function (e) {
+document.getElementById("contact-form").addEventListener("submit", (e) => {
     e.preventDefault()
 
 
